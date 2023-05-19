@@ -1,5 +1,8 @@
 
-# COMANDOS
+#Notas do curso de git e versionamento 
+
+
+## COMANDOS
 
 1. **git clone**:
     abrir o git na pasta que precisa
@@ -41,9 +44,9 @@
 
     depois desses passos é interessante usar o git pull, assim temos ctz do que iremos dar o marge
 
-# CONCEITOS
+## CONCEITOS
 
-## Status do  git 
+### Status do  git 
 ![ilustra o status do git](imgs/status_git.PNG)
 1. **Unmodified**
     o git identidicou mas ainda nao tem nenhuma mudança gravada para esse arquivo.
@@ -56,6 +59,6 @@
     Arquivo novo, sem nenhum commit 
 
 
-## branches 
+### branches 
 
 ![ilustração do conceito de branches](imgs/branches.PNG)
