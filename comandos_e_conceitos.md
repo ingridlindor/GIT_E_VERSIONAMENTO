@@ -1,25 +1,25 @@
 
 COMANDOS
 
-1. git clone
-    Abrir o git na pasta que precisa
-    git clone +https do repositorio e o repositorio vai ser baixado na pasta
+1. **git clone**:
+    abrir o git na pasta que precisa
+    
+    (git clone +https do repositorio e o repositorio vai ser baixado na pasta)
+    
 
-2. git init
-    vai criar a pasta oculta do git, onde ele le e guarda os versionamentos 
+2. **git init**:vai criar a pasta oculta do git, onde ele le e guarda os versionamentos 
 
-3. git status
-mostra com a branch e se ela esta atualizada em relação ao origin
-mostra qual arquivo esta em estado de *MODIFIED*
+3. **git status**: mostra com a branch e se ela esta atualizada em relação ao origin. 
+   
+   Mostra qual arquivo esta em estado de *MODIFIED*
 
-4. git add
-adiciona o arquivo na area de *STAGED*
+4. **git add**: adiciona o arquivo na area de *STAGED*
 
 
 
 CONCEITOS
 
-estados do  git 
+Estatus do  git 
 1. Unmodified
     o git identidicou mas ainda nao tem nenhuma mudança gravada para esse arquivo.
     Já receberam commit
