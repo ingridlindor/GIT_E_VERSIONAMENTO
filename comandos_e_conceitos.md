@@ -29,9 +29,22 @@
 
     **git restore -- staged**: faz a mesma coisa, só que na area de staged
 
+10. **git push**:"empurra" para o repositorio remoto. Estrutura: git push -u origin (ou main)
+
+11. **git pull**: "puxa" oq tem no repositorio remoto e faz um merge entre repositorio local e remoto
+    
+    **marge**: junta oq tem no repositorio remoto com o que tem no repositorio local
+
+12. **git fech**: baixa tudo que esta no repositorio remoto e NAO TEM no local porem nao coloca direto as mudança. É uma forma de vizualizar antes dar marge local
+    
+    pra olhar essa difença podemos usando **git dif origin/master**
+
+    depois desses passos é interessante usar o git pull, assim temos ctz do que iremos dar o marge
+
 # CONCEITOS
 
-## Estatus do  git 
+## Status do  git 
+![ilustra o status do git](imgs/status_git.PNG)
 1. **Unmodified**
     o git identidicou mas ainda nao tem nenhuma mudança gravada para esse arquivo.
     Já receberam commit
@@ -41,3 +54,8 @@
     como se fosse uma area preparatoria para dar o commit 
 4. **Untracked**
     Arquivo novo, sem nenhum commit 
+
+
+## branches 
+
+![ilustração do conceito de branches](imgs/branches.PNG)
