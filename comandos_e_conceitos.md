@@ -23,6 +23,12 @@
 
 7. **git rm**: remove alguns arquivo da pasta (precisa colocar "git rm nome_arquivo")
 
+8. **git log**: mostra os ultimos commits que foram feitos
+
+9. **git restore**: volta antes da ultima alteração que foi feita num arquivo q foi salvo porem n teve um novo commit (na area modified)
+
+    **git restore -- staged**: faz a mesma coisa, só que na area de staged
+
 # CONCEITOS
 
 ## Estatus do  git 
