@@ -48,6 +48,8 @@
 
 14. **git log --online --decorate**: indica em qual brach estamos
 
+15. **git marge**: + main/teste . para juntas duas branchs ( se estiver em uma add o nome da outra no comando)
+
 ## CONCEITOS
 
 ### Status do  git 
