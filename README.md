@@ -1,5 +1,5 @@
 
-#Notas do curso de git e versionamento 
+# Notas do curso de git e versionamento 
 
 
 ## COMANDOS
@@ -36,29 +36,39 @@
 
 11. **git pull**: "puxa" oq tem no repositorio remoto e faz um merge entre repositorio local e remoto
     
-    **marge**: junta oq tem no repositorio remoto com o que tem no repositorio local
+    **merge**: junta oq tem no repositorio remoto com o que tem no repositorio local
 
-12. **git fech**: baixa tudo que esta no repositorio remoto e NAO TEM no local porem nao coloca direto as mudança. É uma forma de vizualizar antes dar marge local
+12. **git fech**: baixa tudo que esta no repositorio remoto e NAO TEM no local porem nao coloca direto as mudança. É uma forma de vizualizar antes dar merge local
     
     pra olhar essa difença podemos usando **git dif origin/master**
 
-    depois desses passos é interessante usar o git pull, assim temos ctz do que iremos dar o marge
+    depois desses passos é interessante usar o git pull, assim temos ctz do que iremos dar o merge
+
+13. **git brach nome_branch**: cria uma nova branch nesse caso com o nome "nome_branch"
+
+14. **git log --online --decorate**: indica em qual brach estamos
 
 ## CONCEITOS
 
 ### Status do  git 
 ![ilustra o status do git](imgs/status_git.PNG)
-1. **Unmodified**
+1. **Unmodified**:
     o git identidicou mas ainda nao tem nenhuma mudança gravada para esse arquivo.
     Já receberam commit
-2. **Modified**
+2. **Modified**:
     Ja aconteceu alguma mudança no arquivo, mas essa mudança ainda nao tem um commit.
 3. **Staged**
     como se fosse uma area preparatoria para dar o commit 
-4. **Untracked**
+4. **Untracked**:
     Arquivo novo, sem nenhum commit 
 
 
-### branches 
+### branchs 
+Para entender podemos imaginar uma arvore
+
+Quando eu crio ou atualizo um arquivo em uma branch diferente, ele existe daquela forma somente naquela branch especifica 
 
 ![ilustração do conceito de branches](imgs/branches.PNG)
+
+Depois de trabalhar de forma separadamente podemos fazer o marge delas
+
